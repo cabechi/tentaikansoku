@@ -46,11 +46,17 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rubocop'
   gem 'rubocop-rails'
+  gem 'annotate'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem "slim-rails"
+gem "html2slim"
 gem "sorcery"
 gem "redis-rails"
 gem 'rails-i18n', '~> 5.1'
